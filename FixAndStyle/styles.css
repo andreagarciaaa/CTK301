@@ -1,0 +1,39 @@
+h1 {
+    color: white;
+}
+
+#poisonsky{background-color: #99AAFF; 
+}
+
+a{
+  color: green;
+  text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+h2{ color:blue;
+}
+
+b{color:orange;}
+
+#indent{text-indent: 50px;}
+
+h3{background-color:yellow;
+}
+
+#inferno{color:red
+}
+
+h4{color:yellow; background-color:green;
+}
+
+#father{background-color:limegreen;}
+
+h5{color:red;
+}
+
+#doctor{background-color:yellow;}
