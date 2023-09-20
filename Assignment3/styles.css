@@ -1,0 +1,37 @@
+h1 {
+    color: red;
+    background-color: #9cff99;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+a:visited {
+    color: green;
+    text-decoration: none;
+  }
+a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+h2{ color:pink;
+    background-color: #99AAFF;
+}
+
+b{color:orange;}
+
+h3{ color:yellow;
+    background-color: #ff99f0;
+}
+
+h4{ color: purple;
+    background-color: #e6ff99;
+}
+
+#info { background-color:aquamarine;
+}
+
+.music {  color:blueviolet;
+}
