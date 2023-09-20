@@ -1,0 +1,64 @@
+body{
+    background-image: url("wallpaper.jpg");
+    font-family: Arial, Helvetica;
+  }
+  
+h1 {
+    color: orange;
+    background-color: #837cfd;
+    font-style: italic;
+    font-weight:normal;
+}
+
+
+a {
+  color: red;
+  text-decoration: none;
+}
+a:visited {
+    color: green;
+    text-decoration: none;
+  }
+a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+h2{ color: orange;
+    background-color: #837cfd;
+    font-style: italic;
+    font-weight:normal;
+}
+
+b{color:orange;}
+
+h3{ color: orange;
+    background-color: #837cfd;
+    font-style: italic;
+    font-weight:normal;
+}
+
+h4{ color: orange;
+    background-color: #837cfd;
+    font-style: italic;
+    font-weight:normal;
+}
+
+#info { background-color:aquamarine;
+}
+
+.music {  color:blueviolet;
+}
+
+.center {text-align: center;
+}
+
+.justification{text-align: justify; 
+}
+
+.imgbox {
+    border: 20px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
+    background-color: yellow;
+}
