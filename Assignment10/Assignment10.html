@@ -8,8 +8,9 @@
 <body>
 	<div id="wrapper">
 
+<div class="header">
 		<h1>A N D R E A &nbsp&nbsp G A R C I A </h1>
-
+</div>
 		  
 		  <main> 
 
@@ -28,69 +29,83 @@
 </main>
  
 
-		<nav>
-			<ul>
-			  <li><a href="#" target="_blank">Video</a></li>
-			  <li><a href="#" target="_blank">Designs</a></li>
-			  <li><a href="#" target="_blank">Audio</a></li>
-			  <li><a href="#" target="_blank">Photos</a></li>
-			  <li><a href="#" target="_blank">Contact</a></li>
-			</ul>
-		  </nav>
-		  
-		<!-- These dummy columns are just to show the grid columns, replace with your HTML -->
-
+<div id="navbar">
+	<a class="active" href="#Video">Video</a>
+	<a href="#Designs">Designs</a>
+	<a href="#Photos">Photos</a>
+	<a href="#Contact">Contact</a>
+  </div>
 	
+		<!-- These dummy columns are just to show the grid columns, replace with your HTML -->
+		<div id="Video">
+			<h2> Video</h2>
+
+			<video width="640" height="360" autoplay controls loop preload="auto" >
+				<source src="HOTAIRBALLOON.MP4" type="video/mp4">
+			  </video>
+
+			  <video width="640" height="360" autoplay controls loop preload="auto" >
+				<source src="RAYS.MP4" type="video/mp4">
+			  </video>
+
+			  <video width="640" height="360" autoplay controls loop preload="auto" >
+				<source src="AHS.MP4" type="video/mp4">
+			  </video>
 
 
-	<div class="gallery">
-		<a target="_blank" href="img_5terre.jpg">
-		  <img src="profile.JPG" alt="Cinque Terre" width="600" height="400">
-		</a>
-		<div class="desc">Add a description of the image here</div>
-	  </div>
-	  
-	  <div class="gallery">
-		<a target="_blank" href="img_forest.jpg">
-		  <img src="profile.JPG" alt="Forest" width="600" height="400">
-		</a>
-		<div class="desc">Add a description of the image here</div>
-	  </div>
-	  
-	  <div class="gallery">
-		<a target="_blank" href="img_lights.jpg">
-		  <img src="profile.JPG" alt="Northern Lights" width="600" height="400">
-		</a>
-		<div class="desc">Add a description of the image here</div>
-	  </div>
-	  
-	  <div class="gallery">
-		<a target="_blank" href="img_mountains.jpg">
-		  <img src="profile.JPG" alt="Mountains" width="600" height="400">
-		</a>
-		<div class="desc">Add a description of the image here</div>
-	  </div>
+		</div>
+	
+		<div id="Designs">
+			<h2> Designs</h2>
+			<img src="design2.jpeg" alt="Image 1">
+			<img src="design22.jpeg" alt="Image 1">
+			<img src="design3.jpeg" alt="Image 1">
+			<img src="design31.jpeg" alt="Image 1">
+		</div>
 
-	  <div class="gallery">
-		<a target="_blank" href="img_mountains.jpg">
-		  <img src="profile.JPG" alt="Mountains" width="600" height="400">
-		</a>
-		<div class="desc">Add a description of the image here</div>
-	  </div>
 
-	  <div class="gallery">
-		<a target="_blank" href="img_mountains.jpg">
-		  <img src="profile.JPG" alt="Mountains" width="600" height="400">
-		</a>
-		<div class="desc">Add a description of the image here</div>
-	  </div>
+
+		<div id="Photos">
+			<h2> Photos</h2>
+
+			<img src="TX.JPG" alt="Image 1">
+			<img src="NO.JPG" alt="Image 2">
+			<img src="CHI.JPG" alt="Image 2">
+			<img src="BLONO.JPG" alt="Image 2">
+			<img src="CUN.JPG" alt="Image 2">
+			<img src="CDMX.JPG" alt="Image 2">
+
+			<!-- Add more images as needed -->
+		</div>
+		
+		<div id="Contact">
+			<h2> Contact</h2>
+	<b>Phone:</b> 309-445-0628
+	<b>Email: </b> andrea.garciaaa2020@gmail.com 
+
+
+		</div>
 
 	<footer>
 		<p>Copyright Andy Garcia &copy</p>
 	  </footer>
 	  </div>
 	</div>
+	
+<script>
+window.onscroll = function() {myFunction()};
 
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script> 
 	
 
 	  </body>
